@@ -1,0 +1,54 @@
+/* Hedaer*/
+
+.navbar{
+	margin-bottom:0; 
+}
+
+.jumbotron{
+	background:#428bca;
+	color:#fff;
+	padding:20px 0px;  
+}
+
+/* Post*/
+
+.main{
+	margin-top:20px;
+	margin-bottom:20px 
+}
+
+.post{
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #A52A2A;   
+}
+
+
+.post .post-title a {
+	color:#DC143C; 
+}
+
+
+.post .thumb{
+	margin-right:10px;
+	width:40%;  
+}
+
+.post .thumb img{
+	width:100%; 
+}
+
+.post .contendedor-botones{
+	width:100%; 
+} 
+
+/*** Media Querie ****/
+
+@media screen and (mad-width:768px){ /*medidas para dispositivos moviles pequeños*/
+	.post .thumb{
+		width:100%;
+		margin-bottom:20px;
+		margin-right:0px;	  
+	}
+}
+

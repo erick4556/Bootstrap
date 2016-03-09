@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<div class="form-group">
+<head>
+<title>Formulario Horizontal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+
+</head>
+
+<body>
+<div class="container">
+	<br>
+	<form action="" class="form-horizontal">
+   <div class="form-group has-success"> <!--Los diferentes has le da un color diferente como en las otras paginas, sin control label no se puede hacer nada -->
+	<label class="control-label col-md-2" for="nombre">Nombre:</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" id="nombre" placeholder="nombre">
+	</div>
+</div>
+
+<div class="form-group has-warning">			
+	<label class="control-label col-md-2" for="nombre">Nombre:</label>
+	<div class="col-md-10">
+		<p class="form-control-static">Erick Cedeño</p>
+	</div>	
+</div>
+
+<div class="form-group has-error">
+	<label class="control-label col-md-2" for="correo">Correo:</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" id="nombre" placeholder="Correo">
+	</div>
+</div>
+
+<div class="form-group has-success">
+		<div class="checkbox col-md-2 col-md-offset-2">
+		<label>
+			<input type="checkbox" name="" id="">Recuerdame
+		</label>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-md-2 col-md-offset-2">
+	<button class="btn btn-primary">Enviar</button>
+	</div> 
+</form>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
